@@ -1,0 +1,66 @@
+[
+  {
+    "title": "AC",
+    "type": "reset"
+  },
+  {
+    "title": "+/-",
+    "type": "abs"
+  },
+  {
+    "title": "%",
+    "type": "abs"
+  },
+  {
+    "title": " / ",
+    "type": "abs"
+  },
+  {
+    "title": "7",
+    "type": "operand"
+  },
+  {
+    "title": "8",
+    "type": "operand"
+  },
+  {
+    "title": "9",
+    "type": "abs"
+  },
+  {
+    "title": "*",
+    "type": "operator"
+  },
+  {
+    "title": "4",
+    "type": "operand"
+  },
+  {
+    "title": "5",
+    "type": "operand"
+  },
+  {
+    "title": "6",
+    "type": "abs"
+  },
+  {
+    "title": "-",
+    "type": "operator"
+  },
+  {
+    "title": "1",
+    "type": "operand"
+  },
+  {
+    "title": "2",
+    "type": "operand"
+  },
+  {
+    "title": "3",
+    "type": "abs"
+  },
+  {
+    "title": "+",
+    "type": "operator"
+  }
+]
