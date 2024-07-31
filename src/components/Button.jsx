@@ -1,8 +1,10 @@
-import PropTypes from 'prop-types';
-
+import { useDispatch } from 'react-redux';
+import { calculate } from '../redux/calculatorSlice';
 const Button = ({ title, value, zeroStyle,operatorStyle }) => {
+  const dispatch = useDispatch()
   return (
     <button
+    onClick={()=> dispatch(calculate(title))}
       value={value}
       className={`
           ${zeroStyle}
@@ -12,10 +14,6 @@ const Button = ({ title, value, zeroStyle,operatorStyle }) => {
       {title}
     </button>
   );
-};
-
-Button.propTypes = {
-  title: PropTypes.string.isRequired,
 };
 
 export default Button;
