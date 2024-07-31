@@ -6,7 +6,7 @@ import ButtonGroup from "./ButtonGroup";
 const Layout = () => {
   return (
     <>
-      <div className="max-w-md mx-auto  my-40">
+      <div className="max-w-md mx-auto my-40">
         <Screen />
         <ButtonGroup />
       </div>

@@ -9,10 +9,12 @@
   },
   {
     "title": "%",
+    
     "type": "abs"
   },
   {
     "title": " / ",
+    "style": "right",
     "type": "abs"
   },
   {
@@ -74,6 +76,7 @@
   },
   {
     "title": "=",
+    "style": "right",
     "type": "equal"
   }
 ]
