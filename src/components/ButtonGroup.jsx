@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 import Button from './Button';
 import data from '../utils/data.json';
 
@@ -20,6 +19,5 @@ const ButtonGroup = () => {
   );
 };
 
-ButtonGroup.propTypes = {};
 
 export default ButtonGroup;
