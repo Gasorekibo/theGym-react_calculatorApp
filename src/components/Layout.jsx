@@ -3,10 +3,10 @@ import PropTypes from "prop-types";
 import Screen from "./Screen";
 import ButtonGroup from "./ButtonGroup";
 
-const Layout = (props) => {
+const Layout = () => {
   return (
     <>
-      <div className="max-w-md mx-auto my-auto mt-40">
+      <div className="max-w-md mx-auto  my-40">
         <Screen />
         <ButtonGroup />
       </div>

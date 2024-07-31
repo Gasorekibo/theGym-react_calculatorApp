@@ -59,8 +59,21 @@
     "title": "3",
     "type": "abs"
   },
+
   {
     "title": "+",
     "type": "operator"
+  },
+  {
+    "title": "0",
+    "type": "operand"
+  },
+  {
+    "title": ".",
+    "type": "dot"
+  },
+  {
+    "title": "=",
+    "type": "equal"
   }
 ]
