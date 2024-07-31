@@ -1,6 +1,6 @@
-import PropTypes from "prop-types";
-
-const Screen = (props) => {
+import { useSelector } from 'react-redux';
+const Screen = () => {
+  const { value } = useSelector((store) => store.value);
   return (
     <div className="text-white ">
       <input
@@ -9,7 +9,7 @@ const Screen = (props) => {
         className="w-full h-full bg-gray-500 py-2 px-2 outline-none text-4xl"
         readOnly
         dir="rtl"
-        value={0}
+        value={value}
       />
     </div>
   );
